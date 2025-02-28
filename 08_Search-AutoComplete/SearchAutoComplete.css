@@ -1,0 +1,121 @@
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+  
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-input:focus {
+    border-color: #007bff;
+}
+
+.search-btn {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background: #0056b3;
+}
+
+.loading {
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.no-results {
+    color: gray;
+    margin-top: 10px;
+}
+
+.suggestions {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-height: 150px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+.suggestions li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.suggestions li:hover {
+    background: #f0f0f0;
+}
+
+.books-list {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.book-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background: white;
+    transition: 0.3s;
+}
+
+.book-card:hover {
+    background: #f0f0f0;
+}
+
+.book-cover {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.book-info {
+    text-align: left;
+}
+
+.book-info h3 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.book-info p {
+    font-size: 14px;
+    margin: 3px 0;
+}

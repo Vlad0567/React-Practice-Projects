@@ -1,0 +1,54 @@
+
+div {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+  
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+  
+
+p {
+    font-size: 22px;
+    font-weight: bold;
+}
+  
+button {
+    margin: 5px;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #0056b3;
+}
+  
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+  
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+  
+th {
+    background-color: #f4f4f4;
+}
+  
+input[type="time"] {
+    font-size: 18px;
+    padding: 5px;
+    margin: 10px;
+}
+  
